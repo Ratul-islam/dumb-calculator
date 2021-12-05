@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+
+        <div class="out">
+            <div class="front">
+                <input type="text" class="txt" id="inputArea">
+                <div class="navs">
+                    <input type="button" value="1" onclick="enter('1')" />
+                    <input type="button" value="2" onclick="enter('2')" />
+                    <input type="button" value="3" onclick="enter('3')" />
+                    <input type="button" value="+" onclick="enter('+')" />
+                    <input type="button" value="4" onclick="enter('4')" />
+                    <input type="button" value="5" onclick="enter('5')" />
+                    <input type="button" value="6" onclick="enter('6')" />
+                    <input type="button" value="-" onclick="enter('-')" />
+                    <input type="button" value="7" onclick="enter('7')" />
+                    <input type="button" value="8" onclick="enter('8')" />
+                    <input type="button" value="9" onclick="enter('9')" />
+                    <input type="button" value="*" onclick="enter('*')" />
+                    <input type="button" value="0" onclick="enter('0')" />
+                    <input type="button" value="." onclick="enter('.')" />
+                    <input type="button" value="/" onclick="enter('/')" />
+                    <input type="button" value="=" onclick="calculate()" />
+                </div>
+            </div>
+            <div class="back"></div>
+        </div>
+
+        <button id="btn" onclick="clr()">clear</button>
+    </section>
+    <script src="brain.js"></script>
+</body>
+</html>
